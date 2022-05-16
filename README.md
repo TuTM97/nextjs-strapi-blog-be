@@ -2,6 +2,16 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
+
+### `Environment`
+Copy and clone .env.example file in the repository and renamed as .env 
+
+### `Database`
+Under config/database.js there are configurations for your connections to the database.
+As default, it is connected to a Heroku remotely hosted Postgresql database.
+
+If you wish to use a different database, feel free to change the credentials to yours.
+
 ### `develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
